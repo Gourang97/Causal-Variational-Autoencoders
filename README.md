@@ -9,6 +9,10 @@ dSprites is a dataset of sprites, which are 2D shapes procedurally generated fro
 
 All possible combinations of these variables are present exactly once, generating N = 737280 total images.
 
+## What is Variational AutoEncoder
+
+![Variational Autoencoder](../VAE.png)
+
 ## Optimization:
 * The code is made compatible for GPU for faster processing.
 * The learned weights are saved to avoid training frequently to enhance development efficiency.
