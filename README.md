@@ -11,7 +11,7 @@ All possible combinations of these variables are present exactly once, generatin
 
 ## What is Variational AutoEncoder
 
-![Variational Autoencoder](~/VAE.png)
+![Variational Autoencoder](https://github.com/Gourang97/CausalML_VAE/blob/master/VAE.png)
 
 ## Optimization:
 * The code is made compatible for GPU for faster processing.
