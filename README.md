@@ -13,10 +13,14 @@ Factors and their values:
 
 * Shape: 3 values {square, ellipse, heart} <br/>
 <img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/Sha_1.png" width="120" height="120"><img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/Sha_2.png" width="120" height="120">
-* Scale: 6 values linearly spaced in (0.5, 1)
-* Orientation: 40 values in (0, 2 π )
-* Position X: 32 values in (0, 1)
-* Position Y: 32 values in (0, 1)
+* Scale: 6 values linearly spaced in (0.5, 1) <br/>
+<img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/Sca_1.png" width="120" height="120"><img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/Sca_2.png" width="120" height="120">
+* Orientation: 40 values in (0, 2 π )<br/>
+<img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/Or_1.png" width="120" height="120"><img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/Or_2.png" width="120" height="120">
+* Position X: 32 values in (0, 1)<br/>
+<img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/Pos_X_1.png" width="120" height="120"><img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/Pos_X_2.png" width="120" height="120">
+* Position Y: 32 values in (0, 1)<br/>
+<img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/Pos_Y_1.png" width="120" height="120"><img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/Pos_Y_2.png" width="120" height="120">
 
 Further, the objective of any generative model is essentially to capture underlying data generative factors, the disentangled representation would mean a single latent unit being sensitive to variations in single generative factors
 
