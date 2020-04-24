@@ -18,7 +18,7 @@ Factors and their values:
 * Orientation: 40 values in (0, 2 π )<br/>
 <img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/Or_1.png" width="120" height="120"><img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/Or_2.png" width="120" height="120">
 * Position X: 32 values in (0, 1)<br/>
-<img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/Pos_X_1.png" width="120" height="120"><img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/Pos_X_2.png" width="120" height="120">
+<img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/Pos_X_1.png" width="120" height="120"><img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/Pox_X_2.png" width="120" height="120">
 * Position Y: 32 values in (0, 1)<br/>
 <img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/Pos_Y_1.png" width="120" height="120"><img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/Pos_Y_2.png" width="120" height="120">
 
