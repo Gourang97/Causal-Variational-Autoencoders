@@ -12,8 +12,7 @@ All possible combinations of these variables are present exactly once, generatin
 Factors and their values:
 
 * Shape: 3 values {square, ellipse, heart} 
-<img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/Sha_1.png" width="100" height="100">
-<img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/Sha_2.png" width="100" height="100">
+<img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/Sha_1.png" width="120" height="120"> -- <img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/Sha_2.png" width="120" height="120">
 * Scale: 6 values linearly spaced in (0.5, 1)
 * Orientation: 40 values in (0, 2 π )
 * Position X: 32 values in (0, 1)
