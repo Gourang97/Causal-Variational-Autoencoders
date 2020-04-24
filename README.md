@@ -1,8 +1,8 @@
 # Causal Modeling with Variational Autoencoder
-This project aims to train a causal variational autoencoder using Deepmind's dSprites dataset.
+This project aims to train an variational autoencoder using Deepmind's dSprites dataset.
 
 ## Introduction
-The objective of the project is to identify causal relationship and apply causal operations on the dSprite dataset images using image labels and obtain interesting results.
+The objective of this project is to detect whether there's a deep causal relationship between the 6 ground truth independent factors that aggregately determine a dSprite image. 
 
 ## Dataset
 dSprites is a dataset of sprites, which are 2D shapes procedurally generated from 6 ground truth independent "factors." These factors are color, shape, scale, rotation, x and y positions of a sprite.
@@ -22,6 +22,8 @@ Factors and their values:
 * Position Y: 32 values in (0, 1)<br/>
 <img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/Pos_Y_1.png" width="120" height="120"><img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/Pos_Y_2.png" width="120" height="120">
 
+Further, the objective of any generative model is essentially to capture underlying data generative factors, the disentangled representation would mean a single latent unit being sensitive to variations in single generative factors
+
 ## What is Variational AutoEncoder
 
 - Overview
@@ -34,8 +36,10 @@ Factors and their values:
 * Autoencoders are neural networks architectures composed of both an encoder and a decoder that create a bottleneck to go through for data and that are trained to lose a minimal quantity of information during the encoding-decoding processthe Model
 
 ## Training the Model
-* Hyperparameters used for better Results
-* Elbo Plot for Loss Function
+The training has being done on Google Colab Platform on GPU resource.
+The dataset was divied into the train and test data in the data_loaders fucntion. And the train and test data can be called using the generator functions whenever required. Once the CVAE class functions are set up we can execute the train and evaluate fucntion. The optimum learning rate used is 1.0e-3 and num of epochs are kept to be 10. The optimizer used here is "ADAM", as it works best with the stochastic dataset, which is here in our case. We observe from the elbo plot that the training losses with the given learning rate changes minimally after the 10 epochs. We also find the test loss after every 5 epochs i.e the TEST_EPOCH_FREQUECY is set to 5, so as to make sure that the model is not overfitting or underfitting our dataset.
+
+Once the training is completed we are also saving the trained model weights so as to ensure the resusability of our results. The results observed our significant to implement the interventions and conditioning as we observed that the Average Training Loss after 10 epochs are 16.1449 and the Average Test loss After 5 epochs are 23.3984.
 
 
 ## Optimization:
