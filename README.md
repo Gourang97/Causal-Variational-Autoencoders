@@ -46,22 +46,22 @@ Further, the objective of any generative model is essentially to capture underly
     <br/><img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/original_reconstruction.png" width="400" height="200">
   * #### Reconstruction with manual change in latent factors
     * Original image with manual change in shape (Image1)
-    ![Change Shape](https://github.com/Gourang97/CausalML_VAE/blob/master/fig/change_shape.png)
+    <br/><img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/change_shape.png" width="400" height="200">
     * Original image with manual change in orientation to Image1 (Image2)
-    ![Change orientation](https://github.com/Gourang97/CausalML_VAE/blob/master/fig/change_orientation.png)
+    <br/><img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/change_orientation.png" width="400" height="200">
 * ### Structural Causal Model(SCM)
   * #### Reconstruction
     * Reconstructioin accuracy using SCM
-    * ![SCM Reconstruction](https://github.com/Gourang97/CausalML_VAE/blob/master/fig/scm_reconstruction.png)
+    <br/><img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/scm_reconstruction.png" width="400" height="200">
   * #### Conditioning
     * Original image with image it would have been had shape been heart
-    * ![SCM Conditioning](https://github.com/Gourang97/CausalML_VAE/blob/master/fig/scm_conditioned.png)
+    <br/><img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/scm_conditioned.png" width="400" height="200">
   * #### Intervention
     * Original image with image it would have been had shape been heart
-    * ![SCM Intervened](https://github.com/Gourang97/CausalML_VAE/blob/master/fig/scm_intervene.png)
+    <br/><img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/scm_intervene.png" width="400" height="200">
   * #### Counterfactual
     * Original image with image it would have been had shape been heart
-    ![Counterfactual shape](https://github.com/Gourang97/CausalML_VAE/blob/master/fig/counterfactual_shape.png)
+    <br/><img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/counterfactual_shape.png" width="400" height="200">
 
 ## Applications
 * Generating fake human faces. 
