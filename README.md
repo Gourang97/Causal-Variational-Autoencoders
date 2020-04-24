@@ -35,7 +35,20 @@ Further, the objective of any generative model is essentially to capture underly
 * The learned weights are saved to avoid training frequently to enhance development efficiency.
 
 ## Results
-* Given an intervention on the latent factors, we were successfully able to recreate images with the other independent factors.
+* ### Variational Autoencoder
+  * #### Reconstruction
+    * Achieved good accuracy using VAE
+    * <image>
+  * #### Reconstruction with manual change in latent factors
+    * Original image with manual change in shape (Image1)
+    * <image>
+    * Original image with manual change in orientation to Image1 (Image2)
+    * <image>
+* ### Structural Causal Model(SCM)
+  * #### Reconstruction
+  * #### Conditioning
+  * #### Intervention
+  * #### Counterfactual
 
 ## Applications
 * Generating fake human faces. 
