@@ -41,6 +41,11 @@ The dataset was divied into the train and test data in the data_loaders fucntion
 
 Once the training is completed we are also saving the trained model weights so as to ensure the resusability of our results. The results observed our significant to implement the interventions and conditioning as we observed that the Average Training Loss after 10 epochs are 16.1449 and the Average Test loss After 5 epochs are 23.3984.
 
+Training and Elbow Plot:
+<br/>
+<img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/training_model_loader.PNG" width="120" height="120">
+<br/>
+<img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/elbo_plot_train.png" width="120" height="120">
 
 ## Optimization:
 * The code is made compatible for GPU for faster processing.
