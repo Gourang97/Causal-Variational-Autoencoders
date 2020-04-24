@@ -43,7 +43,8 @@ Once the training is completed we are also saving the trained model weights so a
 
 Training and Elbow Plot:
 <br/>
-<img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/training_model_loader.PNG" width="360" height="360">
+<img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/training_model_loader.PNG" width="360" height="300">
+<t/>
 <img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/elbo_plot_train.png" width="360" height="360">
 
 ## Optimization:
