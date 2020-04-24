@@ -43,16 +43,22 @@ Further, the objective of any generative model is essentially to capture underly
 * ### Variational Autoencoder
   * #### Reconstruction
     * Achieved good accuracy using VAE
-    * <image>
+    ![VAE Reconstruction](https://github.com/Gourang97/CausalML_VAE/blob/master/fig/original_reconstruction.png)
   * #### Reconstruction with manual change in latent factors
     * Original image with manual change in shape (Image1)
-    * <image>
+    ![Change Shape](https://github.com/Gourang97/CausalML_VAE/blob/master/fig/change_shape.png)
     * Original image with manual change in orientation to Image1 (Image2)
-    * <image>
+    ![Change orientation](https://github.com/Gourang97/CausalML_VAE/blob/master/fig/change_orientation.png)
 * ### Structural Causal Model(SCM)
   * #### Reconstruction
+    * Reconstructioin accuracy using SCM
+    ![SCM Reconstruction](https://github.com/Gourang97/CausalML_VAE/blob/master/fig/scm_reconstruction.png)
   * #### Conditioning
+    * Original image with image it would have been had shape been heart
+    ![SCM Conditioning](https://github.com/Gourang97/CausalML_VAE/blob/master/fig/scm_conditioned.png)
   * #### Intervention
+    * Original image with image it would have been had shape been heart
+    ![SCM Intervened](https://github.com/Gourang97/CausalML_VAE/blob/master/fig/scm_intervene.png)
   * #### Counterfactual
     * Original image with image it would have been had shape been heart
     ![Counterfactual shape](https://github.com/Gourang97/CausalML_VAE/blob/master/fig/counterfactual_shape.png)
