@@ -65,7 +65,7 @@ Further, the objective of any generative model is essentially to capture underly
     * Original image intervened on PositionX = 32 and PositionY = 32
     <br/><img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/scm_intervene.png" width="400" height="200">
   * #### Counterfactual
-    * Original image with image it would have been had shape = 'heart'
+    * Original image with image it would have been had shape = 3 (Heart)
     <br/><img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/counterfactual_shape.png" width="400" height="200">
 
 ## Applications
