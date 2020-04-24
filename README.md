@@ -42,8 +42,8 @@ Further, the objective of any generative model is essentially to capture underly
 ## Results
 * ### Variational Autoencoder
   * #### Reconstruction
-    * Achieved good accuracy using VAE<br/>
-<img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/original_reconstruction.png" width="400" height="300">
+    * Achieved good accuracy using VAE 
+    <br/><img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/original_reconstruction.png" width="400" height="250">
   * #### Reconstruction with manual change in latent factors
     * Original image with manual change in shape (Image1)
     ![Change Shape](https://github.com/Gourang97/CausalML_VAE/blob/master/fig/change_shape.png)
