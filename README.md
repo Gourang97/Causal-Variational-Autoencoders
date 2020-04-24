@@ -1,8 +1,8 @@
 # Causal Modeling with Variational Autoencoder
-This project aims to train an variational autoencoder using Deepmind's dSprites dataset.
+This project aims to train a causal variational autoencoder using Deepmind's dSprites dataset.
 
 ## Introduction
-The objective of this project is to detect whether there's a deep causal relationship between the 6 ground truth independent factors that aggregately determine a dSprite image. 
+The objective of the project is to identify causal relationship and apply causal operations on the dSprite dataset images using image labels and obtain interesting results.
 
 ## Dataset
 dSprites is a dataset of sprites, which are 2D shapes procedurally generated from 6 ground truth independent "factors." These factors are color, shape, scale, rotation, x and y positions of a sprite.
@@ -21,8 +21,6 @@ Factors and their values:
 <img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/Pos_X_1.png" width="120" height="120"><img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/Pox_X_2.png" width="120" height="120">
 * Position Y: 32 values in (0, 1)<br/>
 <img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/Pos_Y_1.png" width="120" height="120"><img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/Pos_Y_2.png" width="120" height="120">
-
-Further, the objective of any generative model is essentially to capture underlying data generative factors, the disentangled representation would mean a single latent unit being sensitive to variations in single generative factors
 
 ## What is Variational AutoEncoder
 
