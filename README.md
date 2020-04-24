@@ -1,8 +1,8 @@
 # Causal Modeling with Variational Autoencoder
-This project aims to train an variational autoencoder using Deepmind's dSprites dataset.
+This project aims to train a Causal variational autoencoder using Deepmind's dSprites dataset.
 
 ## Introduction
-The objective of this project is to detect whether there's a deep causal relationship between the 6 ground truth independent factors that aggregately determine a dSprite image. 
+The objective of the project is to identify causal relationship and apply causal operations on the dSprite dataset images using image labels and obtain interesting results
 
 ## Dataset
 dSprites is a dataset of sprites, which are 2D shapes procedurally generated from 6 ground truth independent "factors." These factors are color, shape, scale, rotation, x and y positions of a sprite.
