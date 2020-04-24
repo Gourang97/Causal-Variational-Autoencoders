@@ -33,7 +33,12 @@ Further, the objective of any generative model is essentially to capture underly
 ![Variational Autoencoder](https://github.com/Gourang97/CausalML_VAE/blob/master/fig/vae_2.jpg)
 
 * Dimensionality reduction is the process of reducing the number of features that describe some data (either by selecting only a subset of the initial features or by combining them into a reduced number new features) and, so, can be seen as an encoding process
-* Autoencoders are neural networks architectures composed of both an encoder and a decoder that create a bottleneck to go through for data and that are trained to lose a minimal quantity of information during the encoding-decoding process
+* Autoencoders are neural networks architectures composed of both an encoder and a decoder that create a bottleneck to go through for data and that are trained to lose a minimal quantity of information during the encoding-decoding processthe Model
+
+## Training the Model
+* Hyperparameters used for better Results
+* Elbo Plot for Loss Function
+
 
 ## Optimization:
 * The code is made compatible for GPU for faster processing.
