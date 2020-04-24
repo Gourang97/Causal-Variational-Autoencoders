@@ -18,9 +18,10 @@ All possible combinations of these variables are present exactly once, generatin
 * The learned weights are saved to avoid training frequently to enhance development efficiency.
 
 ## Results
-* Given an intervention, we were successfully able to recreate images with the other independent factors.
+* Given an intervention on the latent factors, we were successfully able to recreate images with the other independent factors.
 
 ## Applications
-* Our code can be used to perform image manipulation. For example, altering the monalisa portrait to change her expression to laughing, sad or angry.
+* Generating fake human faces. 
+* Producing purely synthetic music.
 
 
