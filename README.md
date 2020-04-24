@@ -22,10 +22,10 @@ Further, the objective of any generative model is essentially to capture underly
 ## What is Variational AutoEncoder
 
 - Overview
-![Variational Autoencoder](https://github.com/Gourang97/CausalML_VAE/blob/master/VAE.png)
+![Variational Autoencoder](https://github.com/Gourang97/CausalML_VAE/blob/master/fig/VAE.png)
 
 - Flow
-![Variational Autoencoder](https://github.com/Gourang97/CausalML_VAE/blob/master/vae_2.jpg)
+![Variational Autoencoder](https://github.com/Gourang97/CausalML_VAE/blob/master/fig/vae_2.jpg)
 
 * Dimensionality reduction is the process of reducing the number of features that describe some data (either by selecting only a subset of the initial features or by combining them into a reduced number new features) and, so, can be seen as an encoding process
 * Autoencoders are neural networks architectures composed of both an encoder and a decoder that create a bottleneck to go through for data and that are trained to lose a minimal quantity of information during the encoding-decoding process
@@ -49,6 +49,8 @@ Further, the objective of any generative model is essentially to capture underly
   * #### Conditioning
   * #### Intervention
   * #### Counterfactual
+    * Original image with image it would have been had shape been heart
+    ![Counterfactual shape](https://github.com/Gourang97/CausalML_VAE/blob/master/fig/counterfactual_shape.png)
 
 ## Applications
 * Generating fake human faces. 
