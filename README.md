@@ -59,10 +59,10 @@ Further, the objective of any generative model is essentially to capture underly
     * Reconstructed image using SCM
     <br/><img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/scm_reconstruction.png" width="400" height="200">
   * #### Conditioning
-    * Original image Conditioned on scale
+    * Original image Conditioned on scale = 6
     <br/><img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/scm_conditioned.png" width="400" height="200">
   * #### Intervention
-    * Original image intervened on PositionX and PositionY
+    * Original image intervened on PositionX = 32 and PositionY = 32
     <br/><img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/scm_intervene.png" width="400" height="200">
   * #### Counterfactual
     * Original image with image it would have been had shape been heart
