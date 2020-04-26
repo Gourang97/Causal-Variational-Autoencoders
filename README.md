@@ -39,7 +39,7 @@ The data is a NPZ NumPy archive with the following fields:
 Alternatively, a HDF5 version is also available, containing the same data, packed as Groups and Datasets.
 
 
-## Theory & Implementation
+## Understanding Causal Variational AutoEncoder
 
 ### Variational Autoencoder
 
