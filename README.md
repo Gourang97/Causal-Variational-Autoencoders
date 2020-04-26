@@ -7,7 +7,7 @@
 
 ## Abstract
 
-In this project we refractored the provided program for Causal Variational AutoEncoders such that there is a causal relationship between the latent variables as mentioned in the dataset. Once retained, we will apply various interventions to elements of the program and have that generate a new image that reflects that intervention. We aim to apply various counterfactual queries on our dataset and observe whether the reconstruction works appropriately.
+In this project we refractored the provided program for Causal Variational AutoEncoders such that there is a causal relationship between the latent variables as mentioned in the dataset. Once retained, we will apply various interventions to elements of the program and have that generate a new image that reflects that intervention. We aim to apply various counterfactual queries on our dataset and observe whether the reconstruction of CVAE works appropriately.
 
 [See video abstract]()
 
@@ -16,19 +16,19 @@ We use the data from the [dSprites repository](https://github.com/deepmind/dspri
 dSprites is a dataset of 2D shapes procedurally generated from 6 ground truth independent latent factors. These factors are color, shape, scale, rotation, x and y positions of a sprite.
 All possible combinations of these latents are present exactly once, generating N = 737280 total images.
 Latent factor values
-Color: white
-Shape: square, ellipse, heart
-Scale: 6 values linearly spaced in [0.5, 1]
-Orientation: 40 values in [0, 2 pi]
-Position X: 32 values in [0, 1]
-Position Y: 32 values in [0, 1]
+* Color: white
+* Shape: square, ellipse, heart
+* Scale: 6 values linearly spaced in [0.5, 1]
+* Orientation: 40 values in [0, 2 pi]
+* Position X: 32 values in [0, 1]
+* Position Y: 32 values in [0, 1]
 We varied one latent at a time (starting from Position Y, then Position X, etc), and sequentially stored the images in fixed order. Hence the order along the first dimension is fixed and allows you to map back to the value of the latents corresponding to that image.
 We chose the latents values deliberately to have the smallest step changes while ensuring that all pixel outputs were different. No noise was added.
 The data is a NPZ NumPy archive with the following fields:
-imgs: (737280 x 64 x 64, uint8) Images in black and white.
-latents_values: (737280 x 6, float64) Values of the latent factors.
-latents_classes: (737280 x 6, int64) Integer index of the latent factor values. Useful as classification targets.
-metadata: some additional information, including the possible latent values.
+* imgs: (737280 x 64 x 64, uint8) Images in black and white.
+* latents_values: (737280 x 6, float64) Values of the latent factors.
+* latents_classes: (737280 x 6, int64) Integer index of the latent factor values. Useful as classification targets.
+* metadata: some additional information, including the possible latent values.
 Alternatively, a HDF5 version is also available, containing the same data, packed as Groups and Datasets.
 
 
@@ -104,9 +104,6 @@ Then we move on to perform three causal operations: conditioning, interventions 
   * #### Conditioning
     * Original image Conditioned on scale = 6
     <br/><img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/scm_conditioned.png" width="400" height="200">
-  * #### Intervention
-    * Original image intervened on PositionX = 32 and PositionY = 32
-    <br/><img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/scm_intervene.png" width="400" height="200">
-  * #### Counterfactual
+  * #### Counterfactual Results
     * Original image with image it would have been had shape = 3 (Heart)
     <br/><img src="https://github.com/Gourang97/CausalML_VAE/blob/master/fig/counterfactual_shape.png" width="400" height="200">
