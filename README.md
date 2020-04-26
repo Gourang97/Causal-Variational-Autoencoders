@@ -6,7 +6,7 @@
 
 ## Abstract
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, sapiente ad eaque? Rerum distinctio, ratione aperiam! Quae, quaerat nihil illum tempora, nulla nemo, quidem doloribus sed fugit culpa saepe. Qui!
+In this project we refractored the provided program such that there is a causal relationship between the latent variables as mentioned in the dataset. Once retained, we will apply various interventions to elements of the program and have that generate a new image that reflects that intervention. We aim to apply various counterfactual queries on our dataset and observe whether the reconstruction works appropriately.
 
 [See video abstract]()
 
