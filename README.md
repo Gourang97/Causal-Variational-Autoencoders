@@ -22,8 +22,10 @@ Latent factor values
 * Orientation: 40 values in [0, 2 pi]
 * Position X: 32 values in [0, 1]
 * Position Y: 32 values in [0, 1]
--We varied one latent at a time (starting from Position Y, then Position X, etc), and sequentially stored the images in fixed order. Hence the order along the first dimension is fixed and allows you to map back to the value of the latents corresponding to that image.
+
+We varied one latent at a time (starting from Position Y, then Position X, etc), and sequentially stored the images in fixed order. Hence the order along the first dimension is fixed and allows you to map back to the value of the latents corresponding to that image.
 We chose the latents values deliberately to have the smallest step changes while ensuring that all pixel outputs were different. No noise was added.
+
 The data is a NPZ NumPy archive with the following fields:
 -imgs: (737280 x 64 x 64, uint8) Images in black and white.
 -latents_values: (737280 x 6, float64) Values of the latent factors.
