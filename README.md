@@ -27,6 +27,7 @@ We varied one latent at a time (starting from Position Y, then Position X, etc),
 We chose the latents values deliberately to have the smallest step changes while ensuring that all pixel outputs were different. No noise was added.
 
 The data is a NPZ NumPy archive with the following fields:
+
 -imgs: (737280 x 64 x 64, uint8) Images in black and white.
 -latents_values: (737280 x 6, float64) Values of the latent factors.
 -latents_classes: (737280 x 6, int64) Integer index of the latent factor values. Useful as classification targets.
