@@ -41,8 +41,6 @@ Training and Loss Plot:
 
 ## How to explore this project
 
-Navigate to [this page] to see our project directory. 
-
 ### Prerequisite libraries
 
 ```
