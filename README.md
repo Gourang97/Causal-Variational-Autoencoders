@@ -7,7 +7,7 @@
 
 ## Abstract
 
-In this project we refractored the provided program for Causal Variational AutoEncoders such that there is a causal relationship between the latent variables as mentioned in the dataset. Once retained, we will apply various interventions to elements of the program and have that generate a new image that reflects that intervention. We aim to apply various counterfactual queries on our dataset and observe whether the reconstruction of CVAE works appropriately.
+In this project we refractored the provided program for Causal Variational AutoEncoders such that there is a causal relationship between the latent variables as mentioned in the dSprites dataset. Once retained, we will apply various conditioning and interventions to elements of the program and have that generate a new image that reflects the applied intervention. We aim to apply COUNTERFACTUAL (Twin World Concept) queries on our dataset and observe whether the reconstruction of CVAE works appropriately.
 
 [See video abstract]()
 
@@ -22,13 +22,13 @@ Latent factor values
 * Orientation: 40 values in [0, 2 pi]
 * Position X: 32 values in [0, 1]
 * Position Y: 32 values in [0, 1]
-We varied one latent at a time (starting from Position Y, then Position X, etc), and sequentially stored the images in fixed order. Hence the order along the first dimension is fixed and allows you to map back to the value of the latents corresponding to that image.
+-We varied one latent at a time (starting from Position Y, then Position X, etc), and sequentially stored the images in fixed order. Hence the order along the first dimension is fixed and allows you to map back to the value of the latents corresponding to that image.
 We chose the latents values deliberately to have the smallest step changes while ensuring that all pixel outputs were different. No noise was added.
 The data is a NPZ NumPy archive with the following fields:
-* imgs: (737280 x 64 x 64, uint8) Images in black and white.
-* latents_values: (737280 x 6, float64) Values of the latent factors.
-* latents_classes: (737280 x 6, int64) Integer index of the latent factor values. Useful as classification targets.
-* metadata: some additional information, including the possible latent values.
+-imgs: (737280 x 64 x 64, uint8) Images in black and white.
+-latents_values: (737280 x 6, float64) Values of the latent factors.
+-latents_classes: (737280 x 6, int64) Integer index of the latent factor values. Useful as classification targets.
+-metadata: some additional information, including the possible latent values.
 Alternatively, a HDF5 version is also available, containing the same data, packed as Groups and Datasets.
 
 
