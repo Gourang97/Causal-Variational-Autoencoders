@@ -56,6 +56,14 @@ pydrive
 
 ### How to run our code
 
+Dependencies
+We will require several dependencies to install several packages to get the project working. We will be essentially requiring several packages like - 
+Pyro Package -  pyro is used for Deep Probabilistic Programming.
+Torch Vision Package - The torchvision package consists of popular datasets, model architectures, and common image transformations for computer vision.
+Pydrive Package - File management made easy. Upload/update the file with one method. PyDrive will do it in the most efficient way.
+Tqdm Package - tqdm package is used to plot user-interactive plot used for visualization.
+
+
 [This](https://github.com/Gourang97/CausalML_VAE/blob/master/causal_vae_dsprites_Farhan.ipynb) is the main Jupyter notebook that contains the full implementation of Causal VAE with counterfactuals. 
 
 The first section mainly deals with the setup of VAE as a supervised model. It loads the data from the [dSprites repository](https://github.com/deepmind/dsprites-dataset). For error-free working, ensure that you specify the correct path after cloning the repo into the `data` directory. The model is then trained and tested to verify its correct training. An alternative to manual training is to run the `Load weights` cell. 
