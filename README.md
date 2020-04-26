@@ -10,7 +10,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, sapiente a
 
 [See video abstract]()
 
-## Theory 
+## Theory & Implementation
 
 ### Variational Autoencoder
 
