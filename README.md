@@ -9,7 +9,7 @@
 
 In this project we refractored the provided program for Causal Variational AutoEncoders such that there is a causal relationship between the latent variables as mentioned in the dSprites dataset. Once retained, we will apply various conditioning and interventions to elements of the program and have that generate a new image that reflects the applied intervention. We aim to apply COUNTERFACTUAL (Twin World Concept) queries on our dataset and observe whether the reconstruction of CVAE works appropriately.
 
-[See video abstract]()
+[See video abstract](https://github.com/Gourang97/CausalML_VAE/blob/master/Artifacts/First.mov?raw=true)
 
 ## Dataset 
 We use the data from the [dSprites repository](https://github.com/deepmind/dsprites-dataset)
