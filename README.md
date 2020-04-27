@@ -1,10 +1,26 @@
 # Causal Modeling on Variational Autoencoder
 
+## Table of Contents
+1. [Authors](#authors)
+2. [Abstract](#abstract)
+3. [Dataset](#dataset)
+4. [Understanding Causal Variational AutoEncoder](#cvae)
+    1. [Variational Autoencoder](#cvae-vae)
+5. [How to explore this project](#project)
+    1. [Installing dependencies](#project-dep)
+    2. [How to run our code](#project-code)
+    3. [Tutorial](#project-tutorial)
+    4. [Training & Optimization](#project-training)
+6. [Sample Results](#results)
+    
+    
+
+<a href="authors"></a>
 ## Authors 
 
 [Farhanur Rahim Ansari](https://www.linkedin.com/in/farhanurrahimansari/), [Gourang Patel](https://www.linkedin.com/in/gourang-patel/), [Sarang Pande](https://www.linkedin.com/in/srngpande/), [Vidhey Oza](https://www.linkedin.com/in/vidheyoza/), [Robert Ness](https://www.linkedin.com/in/osazuwa/)
 
-
+<a href="abstract"></a>
 ## Abstract
 
 In this project we refractored the provided program for Causal Variational AutoEncoders such that there is a causal relationship between the latent variables as mentioned in the dSprites dataset. Once retained, we will apply various conditioning and interventions to elements of the program and have that generate a new image that reflects the applied intervention. We aim to apply Counterfactual (Twin World Concept) queries on our dataset and observe whether the reconstruction of CVAE works appropriately.
@@ -12,6 +28,7 @@ In this project we refractored the provided program for Causal Variational AutoE
 * [See video abstract](https://github.com/Gourang97/CausalML_VAE/blob/master/Tutorial/First.mov)
 * [See Presentation](https://github.com/Gourang97/CausalML_VAE/blob/master/Tutorial/Presentation1.pptx)
 
+<a href="dataset"></a>
 ## Dataset 
 We use the data from the [dSprites repository](https://github.com/deepmind/dsprites-dataset)
 dSprites is a dataset of 2D shapes procedurally generated from 6 ground truth independent latent factors. These factors are color, shape, scale, rotation, x and y positions of a sprite.
@@ -39,9 +56,10 @@ The data is a NPZ NumPy archive with the following fields:
 
 Alternatively, a HDF5 version is also available, containing the same data, packed as Groups and Datasets.
 
-
+<a href="cvae"></a>
 ## Understanding Causal Variational AutoEncoder
 
+<a href="cvae-vae"></a>
 ### Variational Autoencoder
 
 - Overview
@@ -53,15 +71,18 @@ Alternatively, a HDF5 version is also available, containing the same data, packe
 * Dimensionality reduction is the process of reducing the number of features that describe some data either by selecting only a subset of the initial features or by combining them into a reduced number new features. Hence they can be seen as an encoding problem too. 
 * Autoencoders are neural network architectures composed of an encoder and a decoder and trained to reconstruct the input during the encoding-decoding process of the model. As a result, the encoder learns to reduce dimensionality without losing important information about the input. 
 
+<a href="project"></a>
 ## How to explore this project
 
-### Installing Dependencies
+<a href="project-dep"></a>
+### Installing dependencies
 All the required dependencies are consolidated in [requirements.txt](https://github.com/Gourang97/CausalML_VAE/blob/master/requirements.txt)
 
-For Installing all the dependencies run this line of code -
+For installing all the dependencies run this line of code -
 
 !pip install -r requirements.txt
 
+<a href="project-code"></a>
 ### How to run our code
 
 [This](https://github.com/Gourang97/CausalML_VAE/blob/master/causal_vae_dsprites_Farhan.ipynb) is the main Jupyter notebook that contains the full implementation of Causal VAE with counterfactuals. 
@@ -72,14 +93,14 @@ The second section has the construction of the Structural Causal Model (SCM). To
 
 Then we move on to perform three causal operations: conditioning, interventions and counterfactual reasoning. 
 
+<a href="project-tutorial"></a>
 ### Tutorial
 
 To learn about Causal Variational AutoEncoder step by step, we have also included the [Tutorials](https://github.com/Gourang97/CausalML_VAE/blob/master/Tutorial/) which includes [ View code](https://github.com/Gourang97/CausalML_VAE/blob/master/Tutorial/tutorialVAE.ipynb)  &  [View pdf](https://github.com/Gourang97/CausalML_VAE/blob/master/Tutorial/tutorialVAE.pdf)
 
 The attached tutorials briefly explaning the working and functioning of the Causal Variational AutoEncoders. It also provides step-wise solution to various Counterfactual Queries applied on the Structured Causal Model. 
 
-
-
+<a href="project-training"></a>
 ### Training & Optimization
 
 The training has being done on Google Colab Platform on GPU resource.
@@ -96,7 +117,7 @@ Training and Loss Plot:
 * The code is made compatible for GPU for faster processing.
 * The learned weights are saved to avoid training frequently to enhance development efficiency.
 
-
+<a href="results"></a>
 ## Sample Results 
 
 * ### Variational Autoencoder
