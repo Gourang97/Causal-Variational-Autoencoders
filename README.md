@@ -76,7 +76,7 @@ Then we move on to perform three causal operations: conditioning, interventions 
 
 To learn about Causal Variational AutoEncoder step by step, we have also included the [Tutorials](https://github.com/Gourang97/CausalML_VAE/blob/master/Tutorial/) which includes [ View code](https://github.com/Gourang97/CausalML_VAE/blob/master/Tutorial/tutorialVAE.ipynb)  &  [View pdf](https://github.com/Gourang97/CausalML_VAE/blob/master/Tutorial/tutorialVAE.pdf)
 
-The attached tutorials briefly explaning the working and functioning of the Causal VAriationa AutoEncoders. It also provides step-wise solution to various Counterfactual Queries applied on the Structured Causal Model. 
+The attached tutorials briefly explaning the working and functioning of the Causal Variational AutoEncoders. It also provides step-wise solution to various Counterfactual Queries applied on the Structured Causal Model. 
 
 
 
