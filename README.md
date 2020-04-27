@@ -3,17 +3,16 @@
 ## Table of Contents
 1. [Authors](#authors)
 2. [Abstract](#abstract)
-3. [Dataset](#dataset)
-4. [Understanding Causal Variational AutoEncoder](#cvae)
-    1. [Variational Autoencoder](#cvae-vae)
-5. [How to explore this project](#project)
+3. [How to explore this project](#project)
     1. [Installing dependencies](#project-dep)
     2. [How to run our code](#project-code)
     3. [Tutorial](#project-tutorial)
-    4. [Training & Optimization](#project-training)
+4. [Dataset](#dataset)
+5. [Understanding Causal Variational AutoEncoder](#cvae)
+    1. [Variational Autoencoder](#cvae-vae)
+    2. [Training & Optimization](#project-training)
 6. [Sample Results](#results)
-    
-    
+
 
 <a href="authors"></a>
 ## Authors 
