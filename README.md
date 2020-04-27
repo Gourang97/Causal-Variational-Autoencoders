@@ -56,7 +56,7 @@ Alternatively, a HDF5 version is also available, containing the same data, packe
 ## How to explore this project
 
 ### Installing Dependencies
-All the required dependencies are consolidated in [this](https://github.com/Gourang97/CausalML_VAE/blob/master/requirements.txt)
+All the required dependencies are consolidated in [requirements.txt](https://github.com/Gourang97/CausalML_VAE/blob/master/requirements.txt)
 
 For Installing all the dependencies run this line of code -
 
