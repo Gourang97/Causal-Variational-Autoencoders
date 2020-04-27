@@ -7,7 +7,7 @@
 
 ## Abstract
 
-In this project we refractored the provided program for Causal Variational AutoEncoders such that there is a causal relationship between the latent variables as mentioned in the dSprites dataset. Once retained, we will apply various conditioning and interventions to elements of the program and have that generate a new image that reflects the applied intervention. We aim to apply COUNTERFACTUAL (Twin World Concept) queries on our dataset and observe whether the reconstruction of CVAE works appropriately.
+In this project we refractored the provided program for Causal Variational AutoEncoders such that there is a causal relationship between the latent variables as mentioned in the dSprites dataset. Once retained, we will apply various conditioning and interventions to elements of the program and have that generate a new image that reflects the applied intervention. We aim to apply Counterfactual (Twin World Concept) queries on our dataset and observe whether the reconstruction of CVAE works appropriately.
 
 [See video abstract](https://github.com/Gourang97/CausalML_VAE/blob/master/Tutorial/First.mov)
 [Presentation](https://github.com/Gourang97/CausalML_VAE/blob/master/Tutorial/Presentation1.ppt)
@@ -60,7 +60,7 @@ All the required dependencies are consolidated in [requirements.txt](https://git
 
 For Installing all the dependencies run this line of code -
 
-!pip install -r '/requirements.txt'
+!pip install -r requirements.txt
 
 ### How to run our code
 
